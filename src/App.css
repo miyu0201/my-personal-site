@@ -11,7 +11,7 @@
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+    --fs-body: 0.9rem;
     
     
 }
@@ -284,13 +284,13 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .work_detail {
-    font-size: 1.2rem;
+    font-size: var(--fs-body);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 320px) {
     .work_experience {
         display: grid;
-        grid-template: 580px 910px 870px 860px / 0.5fr 4fr;
+        grid-template: 480px 820px 750px 720px / 0.5fr 4fr;
         gap: 10px;
         margin: 0 0px 0 0px;
         text-align: left;
@@ -298,10 +298,21 @@ h3 { font-size: var(--fs-h3) }
 
 }
 
-@media (min-width: 700px) {
+@media (min-width: 400px) {
     .work_experience {
         display: grid;
-        grid-template: 400px 630px 550px 580px / 1fr 4fr;
+        grid-template: 350px 560px 530px 500px / 0.5fr 4fr;
+        gap: 10px;
+        margin: 0 0px 0 0px;
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .work_experience {
+        display: grid;
+        grid-template: 250px 420px 420px 400px / 1fr 4fr;
         gap: 17px;
         margin: 0 10px 0 80px;
         text-align: left;
@@ -312,7 +323,7 @@ h3 { font-size: var(--fs-h3) }
 @media (min-width: 1000px) {
     .work_experience {
         display: grid;
-        grid-template: 240px 330px 320px 220px / 1fr 4fr;
+        grid-template: 240px 320px 320px 220px / 1fr 4fr;
         gap: 17px;
         margin: 0 10px 0 80px;
         text-align: left;
@@ -353,7 +364,7 @@ h3 { font-size: var(--fs-h3) }
 @media (min-width: 1200px) {
     .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
 }
 
 
