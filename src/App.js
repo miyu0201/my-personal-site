@@ -28,7 +28,7 @@ function App() {
       </section>
 
       <section class="my_skills" id="skills">
-        <h2 class="skills_title">My Skills</h2>
+        <h1 class="skills_title">My Skills</h1>
         <div class="skills">
           <div class="skill">
             <h3>Front-End Skills </h3>
@@ -317,10 +317,10 @@ function App() {
               class="contact_link"
               href="https://www.linkedin.com/in/minghuiyu88"
             >
-              <Linkedin color="white" size={20} />
+              <Linkedin color="#48D1CC" size={20} />
             </a>
             <a class="contact_link" href="https://github.com/miyu0201">
-              <Github color="white" size={20} />
+              <Github color="#48D1CC" size={20} />
             </a>
           </li>
         </ul>
