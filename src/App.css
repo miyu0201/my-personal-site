@@ -27,9 +27,9 @@
 
 @media (max-width: 450px) {
     :root {
-        --fs-h1: 4rem;
-        --fs-h2: 3.5rem;
-        --fs-h3: 1.2rem;
+        --fs-h1: 2.5rem;
+        --fs-h2: 1.6rem;
+        --fs-h3: 0.8rem;
         --fs-body: 0.5rem;
     }
 }
@@ -252,10 +252,11 @@ h3 { font-size: var(--fs-h3) }
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        font-size: var(--fs-h3);
     }
 
     .about_me_body {
-        font-size: 1.2rem;
+        font-size: var(--fs-body);
     }
 
     .about_me_img {
@@ -278,7 +279,7 @@ h3 { font-size: var(--fs-h3) }
 
 .work_subtitle {
     color: #48D1CC;
-    font-size: 1.5rem;
+    font-size: var(--fs-h3);
     margin-bottom: 2em;
     font-family: 'Roboto Slab', serif;
 }
