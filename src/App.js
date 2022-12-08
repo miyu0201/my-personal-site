@@ -318,10 +318,10 @@ function App() {
               class="contact_link"
               href="https://www.linkedin.com/in/minghuiyu88"
             >
-              <Linkedin color="#48D1CC" size={20} />
+              <Linkedin color="#48D1CC" size={15} />
             </a>
             <a class="contact_link" href="https://github.com/miyu0201">
-              <Github color="#48D1CC" size={20} />
+              <Github color="#48D1CC" size={15} />
             </a>
           </li>
         </ul>

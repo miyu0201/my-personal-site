@@ -219,6 +219,7 @@ h3 { font-size: var(--fs-h3) }
 
 .about_me {
     max-width: 1000px;
+
     margin: 0 auto;
 }
 
@@ -314,20 +315,28 @@ h3 { font-size: var(--fs-h3) }
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+    /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: 200px;
+   grid-auto-flow: dense;
+   
+ 
 }
 
 .portfolio_item {
-    background: #48D1CC;
+    background: #2F4F4F;
     overflow: hidden;
 
 }
+
 
 .portfolio_img {
     transition:
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
 }
+
 
 .portfolio_item:focus {
     position: relative;
@@ -340,13 +349,16 @@ h3 { font-size: var(--fs-h3) }
     opacity: .5;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 457px) {
     .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    grid-gap: 5px;
+    /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-auto-rows: 170px;
+   grid-auto-flow: dense;
+   
 }
-
-
 }
 
 /* footer */
@@ -356,7 +368,7 @@ h3 { font-size: var(--fs-h3) }
     color: white;
     text-align: center;
     padding: 2.5em 0;
-    font-size: 1.1em;
+     font-size: var(--fs-body);
 }
 
 .footer a {
@@ -375,7 +387,7 @@ h3 { font-size: var(--fs-h3) }
 
 .contact_item {
     margin: 0 2em;
-color:#48D1CC;
+    color:#48D1CC;
 }
 
 .contact_link {
