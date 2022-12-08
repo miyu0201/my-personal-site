@@ -100,7 +100,7 @@ function App() {
         <div class="work_experience">
           <div class="work_detail">04/2022 - Ongoing</div>
           <div class="work_detail">
-            <StarFill color="yellow" size={20} />
+            <StarFill color="yellow" size={15} />
             &nbsp;&nbsp;
             <strong>Front-End Developer & Business Analyst - Elvftech</strong>
             <ul>
@@ -123,7 +123,7 @@ function App() {
 
           <div class="work_detail">06/2021 - 08/2022</div>
           <div class="work_detail">
-            <StarFill color="yellow" size={20} />
+            <StarFill color="yellow" size={15} />
             &nbsp;&nbsp;<strong>Front-end developer - DTR1</strong>
             <ul>
               <li>
@@ -157,7 +157,7 @@ function App() {
 
           <div class="work_detail">04/2014 - 12/2015</div>
           <div class="work_detail">
-            <StarFill color="yellow" size={20} />
+            <StarFill color="yellow" size={15} />
             &nbsp;&nbsp;
             <strong>
               Education Consultant -Premium Education International LTD/United
@@ -194,7 +194,7 @@ function App() {
 
           <div class="work_detail">07/2011 - 03/2012</div>
           <div class="work_detail">
-            <StarFill color="yellow" size={20} />
+            <StarFill color="yellow" size={15} />
             &nbsp;&nbsp;
             <strong>
               Rich Content Developer/ Intern Website designer - IPmart Network
