@@ -13,6 +13,8 @@ import elvftech from "./images/elvftech.PNG";
 import elderlyMonitor from "./images/elderlyMonitor.PNG";
 import plant from "./images/plant.PNG";
 import immersive from "./images/immersive.PNG";
+import cityTraffic from "./images/cityTraffic.PNG";
+import projectVision from "./images/projectVision.PNG";
 
 import { Linkedin, Github, StarFill } from "react-bootstrap-icons";
 
@@ -299,6 +301,20 @@ function App() {
             class="portfolio_item"
           >
             <img src={plant} alt="" class="portfolio_img" />
+          </a>
+
+          <a
+            href="https://github.com/miyu0201/City-Traffic"
+            class="portfolio_item"
+          >
+            <img src={cityTraffic} alt="" class="portfolio_img" />
+          </a>
+
+          <a
+            href="https://github.com/miyu0201/Project-VISION"
+            class="portfolio_item"
+          >
+            <img src={projectVision} alt="" class="portfolio_img" />
           </a>
         </div>
       </section>
