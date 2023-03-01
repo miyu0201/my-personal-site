@@ -11,10 +11,18 @@ import meme from "./images/meme.PNG";
 import login from "./images/login.PNG";
 import elvftech from "./images/elvftech.PNG";
 import elderlyMonitor from "./images/elderlyMonitor.PNG";
+import expenseIncomeTracker from "./images/income-expense-tracker.png";
+import taskTracker from "./images/task-tracker.png";
+import chartJS from "./images/chart_js.png";
 import plant from "./images/plant.PNG";
 import immersive from "./images/immersive.PNG";
 import cityTraffic from "./images/cityTraffic.PNG";
 import projectVision from "./images/projectVision.PNG";
+import furniture from "./images/furniture.PNG";
+import companyList from "./images/companyList.png";
+import airbnb from "./images/airbnb.png";
+import noteApp from "./images/note_app.png";
+import recipeApp from "./images/recipe_app.png";
 
 import { Linkedin, Github, StarFill } from "react-bootstrap-icons";
 
@@ -264,7 +272,9 @@ function App() {
             <img src={userContact} alt="" class="portfolio_img" />
           </a>
 
-         
+          <a href="https://recipeapp01.netlify.app/" class="portfolio_item">
+            <img src={recipeApp} alt="" class="portfolio_img" />
+          </a>
 
           <a href="https://meme-creator01.netlify.app/" class="portfolio_item">
             <img src={meme} alt="" class="portfolio_img" />
@@ -277,10 +287,17 @@ function App() {
             <img src={login} alt="" class="portfolio_img" />
           </a>
           <a
-            href="https://www.youtube.com/watch?v=Ozj875DmbZY&t=9s"
+            href="https://companylist.netlify.app/"
             class="portfolio_item"
           >
-            <img src={immersive} alt="" class="portfolio_img" />
+            <img src={companyList} alt="" class="portfolio_img" />
+          </a>
+         
+          <a
+            href="https://furniturestore001.netlify.app/"
+            class="portfolio_item"
+          >
+            <img src={furniture} alt="" class="portfolio_img" />
           </a>
           <a
             href="https://deft-tapioca-8060a7.netlify.app"
@@ -288,12 +305,45 @@ function App() {
           >
             <img src={shoppingList} alt="" class="portfolio_img" />
           </a>
+          <a
+            href="https://airnbn.netlify.app/"
+            class="portfolio_item"
+          >
+            <img src={airbnb} alt="" class="portfolio_img" />
+          </a>
+          <a
+            href="https://react-note-app1.netlify.app/"
+            class="portfolio_item"
+          >
+            <img src={noteApp} alt="" class="portfolio_img" />
+          </a>
 
           <a
             href="https://github.com/miyu0201/Remote-Elderly-Monitoring-IoT"
             class="portfolio_item"
           >
             <img src={elderlyMonitor} alt="" class="portfolio_img" />
+          </a>
+
+          <a
+            href="http://incomeexpensetracker001.netlify.app"
+            class="portfolio_item"
+          >
+            <img src={expenseIncomeTracker } alt="" class="portfolio_img" />
+          </a>
+
+          <a
+            href="https://appointmenttracker.netlify.app/"
+            class="portfolio_item"
+          >
+            <img src={taskTracker} alt="" class="portfolio_img" />
+          </a>
+
+          <a
+            href="https://chartjs001.netlify.app"
+            class="portfolio_item"
+          >
+            <img src={chartJS} alt="" class="portfolio_img" />
           </a>
 
           <a
@@ -309,7 +359,12 @@ function App() {
           >
             <img src={cityTraffic} alt="" class="portfolio_img" />
           </a>
-
+          <a
+            href="https://www.youtube.com/watch?v=Ozj875DmbZY&t=9s"
+            class="portfolio_item"
+          >
+            <img src={immersive} alt="" class="portfolio_img" />
+          </a>
           <a
             href="https://github.com/miyu0201/Project-VISION"
             class="portfolio_item"
