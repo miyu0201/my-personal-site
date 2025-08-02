@@ -61,8 +61,8 @@ img {
 .btn {
     display: inline-block;
     padding: .5em 3.5em;
-    background: #48D1CC;
-    color: white;
+    background: #F1FADA;
+    color: #265073;
     text-decoration: none;
     cursor: pointer;
     font-size: 0.7rem;
@@ -87,19 +87,19 @@ h3 {
 }
 h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
-h3 { font-size: var(--fs-h3) }
+h3 { font-size: var(--fs-h3) ;color:#F1FADA}
 
 
 
 .header_subtitle,
 .about_subtitle {
-    background: #48D1CC;
+    background: #9AD0C2;
     padding: .25em 1.5em;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 1em;
     margin: 0;
     font-size: var(--fs-h3);
-    color: white;
+    color: #265073;
 
 }
 
@@ -130,7 +130,7 @@ h3 { font-size: var(--fs-h3) }
 
 .header_subtitle {
     display: inline-block;
-    color: white;
+    color: #265073;
 }
 
 @media (min-width: 600px) {
@@ -170,7 +170,7 @@ h3 { font-size: var(--fs-h3) }
 
 .my_skills {
 
-    background-image: url(./images/service.png);
+    background-image: url(./images/service.jpg);
     background-size: cover;
     color: white;
     text-align: center;
@@ -179,7 +179,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .skills_title {
-    color: #48D1CC;
+    color: #9AD0C2;
     font-size: h2;
     margin-bottom: 50px;
 
@@ -271,7 +271,7 @@ h3 { font-size: var(--fs-h3) }
 
 /*  My work section  */
 .my_work {
-    background-color: #2F4F4F;
+    background-color: #265073;
     color: white;
     text-align: center;
 }
@@ -281,7 +281,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .work_subtitle {
-    color: #48D1CC;
+    color: #F1FADA;
     font-size: var(--fs-h3);
     margin-bottom: 2em;
     font-family: 'Roboto Slab', serif;
@@ -317,19 +317,19 @@ h3 { font-size: var(--fs-h3) }
 
 .portfolio {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 15px;
     /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-auto-rows: 200px;
-   grid-auto-flow: dense;
+    grid-auto-flow: dense;
    
  
 }
 
 .portfolio_item {
-    background: #2F4F4F;
+    background: #265073;
     overflow: hidden;
-
+border-radius: 5px;
 }
 
 
@@ -366,11 +366,11 @@ h3 { font-size: var(--fs-h3) }
 /* footer */
 
 .footer {
-    background: #111;
-    color: white;
+    background: white;
+    color: #265073;
     text-align: center;
     padding: 2.5em 0;
-     font-size: var(--fs-body);
+    font-size: var(--fs-body);
 }
 
 .footer a {
@@ -389,7 +389,7 @@ h3 { font-size: var(--fs-h3) }
 
 .contact_item {
     margin: 0 2em;
-    color:#48D1CC;
+    color:#265073;
 }
 
 .contact_link {

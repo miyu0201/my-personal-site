@@ -23,7 +23,18 @@ import companyList from "./images/companyList.png";
 import airbnb from "./images/airbnb.png";
 import noteApp from "./images/note_app.png";
 import recipeApp from "./images/recipe_app.png";
-
+import taskManager from "./images/task_manager.png";
+import windfarm from "./images/windFarm.png";
+import website from "./images/website.png";
+import atoEnergy from "./images/atoEnergy.png";
+import virtwin from "./images/virtwin.png";
+import ThreeDVisualization from "./images/3d-visualization.png";
+import urbanEnergy from "./images/urban-energy.png";
+import casino_online from "./images/casino_online.png";
+import tic_tac_toe from "./images/tic_tac_toe.png";
+import roll_a_ball from "./images/roll_a_ball.png";
+import financeTracker from "./images/finance-tracker.png";
+import jewelryStore from "./images/jewelry-store.png";
 import { Linkedin, Github, StarFill } from "react-bootstrap-icons";
 
 function App() {
@@ -33,7 +44,7 @@ function App() {
         <h1 class="header_title">
           Hi, I am <strong>Minghui Yu</strong>
         </h1>
-        <p class="header_subtitle">front-end developer</p>
+        <p class="header_subtitle">Front-End Developer</p>
         <img src={imageYMH} alt="ymh" class="header_img" />
       </section>
 
@@ -42,25 +53,42 @@ function App() {
         <div class="skills">
           <div class="skill">
             <h3>Front-End Skills </h3>
-            <p>ReactJS, HTML, CSS, react bootstrap, JavaScript libraries</p>
-            <p>User Flow Design and Prototyping using Figma </p>
-          </div>
-
-          <div class="skill">
-            <h3>Interactive Design </h3>
             <p>
-              Unity Engine, C#, Design for Immersive Technolog, AR, VR, ARCore,
-              ARKit
+              ReactJS, JavaScript, HTML, CSS, Styled-Components,TypeScript,
+              Three.js, ChartJS, Restful APIs, Redux, Node.js, MongoDB, Dockers,
+              Webflow, React Bootstrap
+            </p>
+            <p>
+              {" "}
+              Component-Based Architecture, Responsive Web Design, Cross-Browser
+              Compatibility, Accessibility (WCAG), Performance Optimization
             </p>
           </div>
 
           <div class="skill">
-            <h3>Responsive Design</h3>
+            <h3>Design & Visualization </h3>
             <p>
-              Web Components Development, Functionality Implementation, Unit
-              Testing, React Testing Library, Jest
+              {" "}
+              UI/UX Design, Design Systems, User Flow Design, Wireframing, Rapid
+              Prototyping with Figma
             </p>
-            <p>Version Control Systems: Git, Github</p>
+            <p>
+              {" "}
+              Qlik Sense, Data Visualization, Three.js, Unity Engine, AR/VR
+              (ARCore, ARKit), Immersive Experience Design
+            </p>
+          </div>
+
+          <div class="skill">
+            <h3>Testing, Workflow & Tools</h3>
+            <p>
+              User Testing, Functional & Unit Testing, React Testing Library,
+              Jest
+            </p>{" "}
+            <p>
+              Version Control Systems: Git, Github, Agile Development, CI/CD
+              Pipelines
+            </p>
           </div>
         </div>
         <a href="#about" class="btn">
@@ -83,21 +111,29 @@ function App() {
 
         <div class="about_me_body">
           <p>
-            Dedicated and motivated web developerfocusing on front-end
-            development in <strong>JavaScript, ReactJS, HTML, and CSS</strong>.
+            Dedicated and motivated frontend developer with a passion for
+            crafting seamless user experiences and visually engaging web
+            applications.
           </p>
           <p>
-            Currently, working in a company providing software solutions for the
-            effective use of power transformers. I helped the company develop
-            the first proof of concept and accessible prototype to showcase to
-            the clients and investors.
+            Skilled in transforming design concepts into interactive prototypes
+            using <strong>Figma</strong> and building responsive interfaces with{" "}
+            <strong>ReactJS, HTML, CSS, and JavaScript</strong>. Experienced in
+            collaborating closely with developers, project managers, and clients
+            to ensure functional, user-centered solutions that align with both
+            business goals and technical requirements. Also proficient in using
+            QlikSense to develop insightful dashboards for data analysis and
+            visualization.
           </p>
           <p>
-            Keen to utilize my skills in front-end development, UI Design,
-            user-flow design, and prototyping to create a useful web with a
-            heavy emphasis on excellent user experience. Seeking junior or
-            mid-level opportunities to expand skills while facilitating company
-            growth.
+            Keen to apply my skills in{" "}
+            <strong>
+              {" "}
+              UI/UX design, user flow optimization, and front-end development{" "}
+            </strong>{" "}
+            to build high-impact digital products. Currently seeking mid-level
+            opportunities where I can continue to grow while contributing to
+            meaningful, user-focused innovation.
           </p>
         </div>
 
@@ -108,33 +144,48 @@ function App() {
         <h2 class="work_title">My Work</h2>
         <p class="work_subtitle">My previous work experience</p>
         <div class="work_experience">
-          <div class="work_detail">04/2022 - Ongoing</div>
+          <div class="work_detail">08/2024 - ongoing</div>
           <div class="work_detail">
             <StarFill color="yellow" size={15} />
-            &nbsp;&nbsp;
-            <strong>Front-End Developer & Business Analyst - Elvftech</strong>
+            &nbsp;&nbsp;<strong>Front-end developer - Virtwin-Energy AB</strong>
             <ul>
               <li>
-                Responsible for the design,prototyping, and development of
-                company website.
+                Designed and developed a lightweight and user-friendly 3D
+                visualization tool using ReactJS, Three.js, and modern web
+                technologies. Enables 3D model visualization, real-time
+                interaction, dynamic data rendering and CFD simulation. Enhances
+                data visualization capabilities, driving deeper insights for
+                energy analysis and decision-making.
               </li>
               <li>
-                Analyse and understand business problem or opportunity, identify
-                areas for improvement.
+                Implemented robust geometric file management systems to enable
+                seamless handling, processing, and integration of spatial data.
+                Supported easy exchange of geometric file formats (e.g., IFC,
+                OBJ, STL) and functionalities such as fragment extraction and
+                mesh generation.
               </li>
               <li>
-                Worked closely with back-end developer to implement prototype
-                elements into web applications using ReactJS, HTML, CSS,
-                JavaScript, etc.
+                Built scalable urban energy management tools with real-time
+                interaction,simulation, analysis, and reporting capabilities,
+                empowering organizations to optimize energy efficiency and
+                reduce operational costs.
               </li>
-              <li>Conduct market research and competitor analysis.</li>
+              <li>
+                Collaborated with backend teams to integrate RESTful APIs and
+                manage data flow, ensuring smooth handling of complex data
+                formats (e.g., VTKs) for high-fidelity energy simulations.
+              </li>
+              <li>
+                Enhanced frontend performance by optimizing rendering processes,
+                reducing load times, and improving the responsiveness of data
+                visualization tools.
+              </li>
             </ul>
           </div>
-
-          <div class="work_detail">06/2021 - 08/2022</div>
+          <div class="work_detail">06/2021 - 06/2024</div>
           <div class="work_detail">
             <StarFill color="yellow" size={15} />
-            &nbsp;&nbsp;<strong>Front-end developer - DTR1</strong>
+            &nbsp;&nbsp;<strong>Front-end developer - DTR1 Tech</strong>
             <ul>
               <li>
                 Design concepts of the web app based on the company goal and the
@@ -162,6 +213,34 @@ function App() {
                 Implemented unit testing for usability and functionality using
                 React Testing Library and Jest.
               </li>
+              <li>
+                Utilize QlikSense Cloud to design and develop dashboards for
+                comprehensive data analysis and visualization in power grid
+                monitoring and management.
+              </li>
+            </ul>
+          </div>
+
+          <div class="work_detail">04/2022 - 06/2023</div>
+          <div class="work_detail">
+            <StarFill color="yellow" size={15} />
+            &nbsp;&nbsp;
+            <strong>Front-End Developer & Business Analyst - Elvftech</strong>
+            <ul>
+              <li>
+                Responsible for the design,prototyping, and development of
+                company website.
+              </li>
+              <li>
+                Analyse and understand business problem or opportunity, identify
+                areas for improvement.
+              </li>
+              <li>
+                Worked closely with back-end developer to implement prototype
+                elements into web applications using ReactJS, HTML, CSS,
+                JavaScript, etc.
+              </li>
+              <li>Conduct market research and competitor analysis.</li>
             </ul>
           </div>
 
@@ -243,11 +322,49 @@ function App() {
       </section>
 
       <section class="my_work" id="profolio">
-        <h2 class="work_title">Profolio</h2>
+        <h2 class="work_title">Protfolio</h2>
         <p class="work_subtitle">
           A selection of my previous work and projects
         </p>
         <div class="portfolio">
+          <a href="https://dtr1.netlify.app/" class="portfolio_item">
+            <img src={website} alt="" class="portfolio_img" />
+          </a>
+          <a href="https://www.ato.energy/" class="portfolio_item">
+            <img src={atoEnergy} alt="" class="portfolio_img" />
+          </a>
+          <a href="https://virtwin-energy.se/" class="portfolio_item">
+            <img src={virtwin} alt="" class="portfolio_img" />
+          </a>
+
+          <a href="https://elvftech.netlify.app/" class="portfolio_item">
+            <img src={elvftech} alt="" class="portfolio_img" />
+          </a>
+          <a href="https://github.com/WWIIWWIIWW/DT" class="portfolio_item">
+            <img src={ThreeDVisualization} alt="" class="portfolio_img" />
+          </a>
+          <a href="https://github.com/WWIIWWIIWW/DT" class="portfolio_item">
+            <img src={urbanEnergy} alt="" class="portfolio_img" />
+          </a>
+          <a href="https://dapper-griffin-570e72.netlify.app/" class="portfolio_item">
+            <img src={jewelryStore} alt="" class="portfolio_img" />
+          </a>
+          <a href="https://mycasino-online.netlify.app/" class="portfolio_item">
+            <img src={casino_online} alt="" class="portfolio_img" />
+          </a>
+
+          <a href="https://my-finance-tracker2.netlify.app/" class="portfolio_item">
+            <img src={financeTracker} alt="" class="portfolio_img" />
+          </a>
+
+          <a href="https://chartjs001.netlify.app" class="portfolio_item">
+            <img src={chartJS} alt="" class="portfolio_img" />
+          </a>
+
+          <a href="https://vindparkostergotland.se/" class="portfolio_item">
+            <img src={windfarm} alt="" class="portfolio_img" />
+          </a>
+
           <a href="https://tenzigame001.netlify.app/" class="portfolio_item">
             <img src={tenzi} alt="" class="portfolio_img" />
           </a>
@@ -264,35 +381,18 @@ function App() {
             <img src={responsiveWeb} alt="" class="portfolio_img" />
           </a>
 
-          <a href="https://elvftech.github.io/" class="portfolio_item">
-            <img src={elvftech} alt="" class="portfolio_img" />
-          </a>
-
           <a href="https://usercontact.netlify.app" class="portfolio_item">
             <img src={userContact} alt="" class="portfolio_img" />
           </a>
 
-          <a href="https://recipeapp01.netlify.app/" class="portfolio_item">
-            <img src={recipeApp} alt="" class="portfolio_img" />
+          <a href="https://taskmanager001.netlify.app" class="portfolio_item">
+            <img src={taskManager} alt="" class="portfolio_img" />
           </a>
 
-          <a href="https://meme-creator01.netlify.app/" class="portfolio_item">
-            <img src={meme} alt="" class="portfolio_img" />
-          </a>
-
-          <a
-            href="https://github.com/miyu0201/login-page_centered-transparent"
-            class="portfolio_item"
-          >
-            <img src={login} alt="" class="portfolio_img" />
-          </a>
-          <a
-            href="https://companylist.netlify.app/"
-            class="portfolio_item"
-          >
+          <a href="https://companylist.netlify.app/" class="portfolio_item">
             <img src={companyList} alt="" class="portfolio_img" />
           </a>
-         
+
           <a
             href="https://furniturestore001.netlify.app/"
             class="portfolio_item"
@@ -305,31 +405,23 @@ function App() {
           >
             <img src={shoppingList} alt="" class="portfolio_img" />
           </a>
-          <a
-            href="https://airnbn.netlify.app/"
-            class="portfolio_item"
-          >
+          <a href="https://airnbn.netlify.app/" class="portfolio_item">
             <img src={airbnb} alt="" class="portfolio_img" />
           </a>
-          <a
-            href="https://react-note-app1.netlify.app/"
-            class="portfolio_item"
-          >
+          <a href="https://react-note-app1.netlify.app/" class="portfolio_item">
             <img src={noteApp} alt="" class="portfolio_img" />
           </a>
-
           <a
-            href="https://github.com/miyu0201/Remote-Elderly-Monitoring-IoT"
+            href="https://github.com/miyu0201/login-page_centered-transparent"
             class="portfolio_item"
           >
-            <img src={elderlyMonitor} alt="" class="portfolio_img" />
+            <img src={login} alt="" class="portfolio_img" />
           </a>
-
           <a
             href="http://incomeexpensetracker001.netlify.app"
             class="portfolio_item"
           >
-            <img src={expenseIncomeTracker } alt="" class="portfolio_img" />
+            <img src={expenseIncomeTracker} alt="" class="portfolio_img" />
           </a>
 
           <a
@@ -339,37 +431,55 @@ function App() {
             <img src={taskTracker} alt="" class="portfolio_img" />
           </a>
 
-          <a
-            href="https://chartjs001.netlify.app"
-            class="portfolio_item"
-          >
-            <img src={chartJS} alt="" class="portfolio_img" />
+          <a href="https://meme-creator01.netlify.app/" class="portfolio_item">
+            <img src={meme} alt="" class="portfolio_img" />
           </a>
 
           <a
-            href="https://www.youtube.com/watch?v=KPUsWQ5tR3Q"
+            href="https://drive.google.com/file/d/1abH_Wb6zebOMMWYjhL8fhBDzKhD0UBP4/view?usp=drive_link"
             class="portfolio_item"
           >
             <img src={plant} alt="" class="portfolio_img" />
           </a>
 
           <a
-            href="https://github.com/miyu0201/City-Traffic"
+            href="https://drive.google.com/file/d/1sNbj5KGhONdH-rDrVEd1PNLG866q_uuy/view?usp=drive_link"
             class="portfolio_item"
           >
             <img src={cityTraffic} alt="" class="portfolio_img" />
           </a>
           <a
-            href="https://www.youtube.com/watch?v=Ozj875DmbZY&t=9s"
+            href="https://drive.google.com/file/d/1gzjOudsHgc8_k2uljcUVGi0qb41KqvK8/view?usp=drive_link"
             class="portfolio_item"
           >
             <img src={immersive} alt="" class="portfolio_img" />
           </a>
           <a
-            href="https://github.com/miyu0201/Project-VISION"
+            href="https://drive.google.com/file/d/1x1VMKIbvtY6yz9VxfaYyl4tOJspvpx-Z/view?usp=drive_link"
             class="portfolio_item"
           >
             <img src={projectVision} alt="" class="portfolio_img" />
+          </a>
+          <a
+            href="https://github.com/miyu0201/Remote-Elderly-Monitoring-IoT"
+            class="portfolio_item"
+          >
+            <img src={elderlyMonitor} alt="" class="portfolio_img" />
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1Ck8gN31eZu0fnM7Sow88A95n25S9z_rO/view?usp=drive_link"
+            class="portfolio_item"
+          >
+            <img src={roll_a_ball} alt="" class="portfolio_img" />
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1aM2rbVgcvXvJe3_KJbipgA2PCdmqa8-X/view?usp=drive_link"
+            class="portfolio_item"
+          >
+            <img src={tic_tac_toe} alt="" class="portfolio_img" />
+          </a>
+          <a href="https://recipeapp01.netlify.app/" class="portfolio_item">
+            <img src={recipeApp} alt="" class="portfolio_img" />
           </a>
         </div>
       </section>
@@ -389,10 +499,10 @@ function App() {
               class="contact_link"
               href="https://www.linkedin.com/in/minghuiyu88"
             >
-              <Linkedin color="#48D1CC" size={15} />
+              <Linkedin color="#265073" size={15} />
             </a>
             <a class="contact_link" href="https://github.com/miyu0201">
-              <Github color="#48D1CC" size={15} />
+              <Github color="#265073" size={15} />
             </a>
           </li>
         </ul>
